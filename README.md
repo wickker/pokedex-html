@@ -16,6 +16,12 @@ You will be creating at least these HTML pages:
 
 - The list of all types page is linked to a page that lists the pokemon that are in that type.
 
+The links between pages are a link tag with an `href` set to a *relative unix path*:
+
+```
+<a href="../pokemon-pages/squirtle.html">squirtle</a>
+```
+
 You should end up with a directory structure that looks like this:
 
 - /main directory
